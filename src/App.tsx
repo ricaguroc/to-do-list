@@ -21,6 +21,12 @@ function App() {
   return (
     <>
 
+      <div className='mobile'>
+        
+        <p>La aplicación no funciona en celulares.</p>
+
+      </div>
+
       <div className='base'>
 
           {visible ? (
