@@ -1,4 +1,4 @@
-# to-do-list
+# To Do List
 
 A simple and efficient task management app built with React and TypeScript to help you organize your daily tasks, applying the basics of React.
 
