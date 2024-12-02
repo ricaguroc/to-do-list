@@ -1,4 +1,4 @@
 # to-do-list
 
 #Preview
-[Imgur](https://imgur.com/3BIuM4g)
+[Imgur](https://i.imgur.com/3BIuM4g.png)
