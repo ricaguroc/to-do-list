@@ -1,0 +1,141 @@
+.columnas {
+
+    margin-top: 5px;
+
+    border: 1px solid black;
+  
+    width: 140vh;
+  
+    height: 99vh;
+  
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+  
+  }
+
+.tarea {
+
+  border: 0.1px solid gainsboro;
+
+  padding: 5px;
+    
+  background-color: rgb(255, 255, 255,0.7);
+  border-radius: 4;
+  box-shadow: 0 2px 2px rgba(0,0,0,0.1);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.tarea.expandida {
+
+  height: 110px;
+
+}
+
+.borrar {
+
+  transition: transform 0.3s ease;
+
+  border: 0px solid white;
+
+  background-color: red;
+
+  padding-left: 2.5px;
+  padding-right: 2.5px;
+  padding-bottom: 1px;
+  padding-top: 1px;
+
+  color: white;
+
+  cursor: pointer;
+
+  border-radius: 4px;
+
+}
+
+.borrar:hover {
+
+  transform: scale(1.2);
+
+}
+
+.descripcion {
+
+  display: flex;
+  flex-direction: column;
+
+  border-top: 2px solid gainsboro;
+  margin-top: 5px;
+
+  height: 70px;
+  width: 100%;
+
+}
+
+.flecha {
+
+  margin-left: 6px;
+  transition: transform 0.3s ease;
+  border: 0px solid white;
+  font-size: 16px;
+  cursor: pointer;
+  color: rgb(204, 204, 204);
+  
+}
+
+.flecha:hover {
+
+  transform: scale(1.6);
+
+}
+
+.texto {
+
+  overflow: auto;
+
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  
+
+
+}
+
+.boton {
+
+  display: flex;
+  align-items: center;
+  justify-content: end;
+
+  margin-top: 10px;
+
+  width: 100%;
+  margin: 0px;
+
+}
+
+.p {
+
+  background-color: rgb(255, 182, 193,0.5);
+  border-right: 1px solid black;
+
+}
+.e {
+
+
+  background-color: lightblue;
+  border-right: 1px solid black;
+
+}
+.c {
+
+  background-color: rgb(144, 238, 144,0.5);
+
+}

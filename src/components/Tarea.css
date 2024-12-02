@@ -1,0 +1,142 @@
+.basic {
+
+    border: 1px solid black;
+
+    padding: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgb(211, 211, 211, 0.5);
+
+}
+
+.preguntas {
+
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+
+}
+
+.n {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.d {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.botones {
+
+    margin-top: 10px;
+
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 5px;
+
+}
+
+.ok {
+
+    transition: transform 0.3s ease;
+  
+    border: 0px solid white;
+  
+    background-color: green;
+  
+  
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 1px;
+    padding-top: 1px;
+  
+    color: white;
+    font-size: 25px;
+  
+    cursor: pointer;
+  
+    border-radius: 4px;
+  
+}
+  
+.ok:hover {
+  
+    transform: scale(1.2);
+  
+}
+
+.no {
+
+    transition: transform 0.3s ease;
+  
+    border: 0px solid white;
+  
+    background-color: red;
+  
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 1px;
+    padding-top: 1px;
+  
+    color: white;
+    font-size: 25px;
+  
+    cursor: pointer;
+  
+    border-radius: 4px;
+  
+}
+  
+.no:hover {
+  
+    transform: scale(1.2);
+  
+}
+
+.form-control {
+
+    font-size: 16px;
+    outline: none;
+    transition: transform 0.2s;
+
+}
+
+.form-control:focus {
+
+    border: 2px solid gainsboro;
+    transform: scale(1.05);
+    
+}
+
+.form-control.is-invalid {
+
+    border: 2px solid red;
+
+}
+
+.error {
+
+    color: red;
+
+}
+
+hr {
+
+    border: 1px solid gainsboro;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+
+}

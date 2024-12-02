@@ -1,0 +1,53 @@
+.basico {
+
+
+  height: 100vh;
+
+  display: grid;
+  grid-template-columns: 50px 1fr;
+
+  text-align: center;
+
+}
+
+.base {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0px;
+  padding: 0;
+
+}
+
+
+
+.button {
+
+  transition: transform 0.3s ease;
+
+  border: 0px solid white;
+
+  background-color: green;
+
+  margin-top: 10px;
+
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 1px;
+  padding-top: 1px;
+
+  color: white;
+  font-size: 25px;
+
+  cursor: pointer;
+
+  border-radius: 4px;
+
+}
+
+.button:hover {
+
+  transform: scale(1.2);
+
+}
